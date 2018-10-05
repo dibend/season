@@ -21,9 +21,9 @@ for year in years:
 		while buyDay < sellDay:
 			combo = str(buyDay) + ' ' + str(sellDay)
 			if combo in combos:
-				combos[combo].append(years[year][buyDay] / years[year][sellDay])
+				combos[combo].append(years[year][sellDay] / years[year][buyDay])
 			else:
-				combos[combo] = [years[year][buyDay] / years[year][sellDay]]	
+				combos[combo] = [years[year][sellDay] / years[year][buyDay]]	
 			buyDay += 1
 		sellDay += 1
 max = 0
