@@ -11,6 +11,6 @@ Make sure the start date is the first trading day of a year.
 
 run python season.py AAPL.csv
 
-replacing AAPL.csv with whichever stock you chose 
+replacing AAPL.csv with whichever stock you chose.
 
 The last 2 lines printed will be the best trading days to buy and sell, followed by the ratio of the return.
