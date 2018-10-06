@@ -29,8 +29,8 @@ for year in years:
 max = 0
 for combo in combos:
 	average = 0
-	for percent in combos[combo]:
-		average += percent
+	for ratio in combos[combo]:
+		average += ratio
 	average /= len(combos[combo])
 	if average > max:
 		print combo
