@@ -37,10 +37,8 @@ for combo in combos:
 	if average > max:
 		maxCombo = combo
 		max = average
-		print 'NEW MAX: ' + maxCombo + ' ' + str(max)
 	if average < min:
 		minCombo = combo
 		min = average
-		print 'NEW MIN: ' + minCombo + ' ' + str(min)
 print 'MAX: ' + maxCombo + ' ' + str(max)
 print 'MIN: ' + minCombo + ' ' + str(min)
